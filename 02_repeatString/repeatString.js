@@ -2,10 +2,10 @@ const repeatString = function(string, num) {
     if (num >= 0){
         for (let i = 0; i <= num; i++){
             let result = string.repeat(num);
-            return(result);
+            return result;
         }
     } else{
-        return('ERROR');
+        return 'ERROR';
     }
     
 };
